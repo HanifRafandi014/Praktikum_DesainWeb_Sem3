@@ -1,0 +1,296 @@
+body {
+	justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+	padding: 0;
+	margin: 0;
+	font-family: 'Josefin Sans', sans-serif;
+	background-color: #696969;
+}
+
+.container1 {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.container {
+    text-align: center;
+    font-size: 150px;
+    color: white;
+}
+
+.nav {
+    background-color: #00000026;
+    position: fixed;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    z-index: 1;
+}
+
+.nav a {
+    color: rgb(219, 219, 219);
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+.bg {
+    background: url('background1.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg1 {
+    padding-bottom: 1px;
+    background-color: #41436a3b;
+    position: relative;
+}
+
+header {
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: #00000026;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 600px;
+    position: sticky;
+    top: 0;
+    text-align: center;
+    font-weight: bold; 
+    color: white;
+}
+
+.tngh {
+	padding: 60px;
+	font-weight: bold;
+	padding-top: 70px;
+}
+
+.content {
+	margin-top: -180px;
+    text-align: center;
+    margin-bottom: 300px;
+}
+
+.first { 
+	height: 200px;
+	width: 50%;
+	background-image: url(../Praktikum Web Minggu 3/img/background.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+/*nav { 
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 5px;
+	padding-left: 8%;
+	padding-right: 8%;
+}
+
+.logo { 
+	color: black;
+	font-size: 35px;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+
+nav ul li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px 25px;
+}
+
+nav ul li a {
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+
+nav ul li a:hover {
+	color: red;
+	transition: .4s;
+}*/
+
+.div1 {
+	font-size: 50pt;
+}
+
+.about {
+	background-color: #DCDCDC;
+	padding: 40px;
+}
+
+.info {
+	background-color: #FF0000;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 10px 70px;
+	transition: transform .4s;
+	position: absolute;
+	border-radius: 40px;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.info:hover {
+	transform: scale(1.2);
+}
+
+.informasi {
+	padding-top: 50px;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.kiri {
+	background-color: #D3D3D3;
+    border-radius: 10px;
+    width: 90%;
+    height: fit-content;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.kanan {
+    background-color: #D3D3D3;
+    border-radius: 10px;
+    width: 100%;
+    height: fit-content;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.nav2 {
+    background-color: #00000026;
+    position: fixed;
+    width: 100%;
+    padding-top: -40px;
+    padding-bottom: 20px;
+    z-index: 1;
+}
+
+.nav2 a {
+    color: rgb(219, 219, 219);
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+.tambahan {
+	background-color: #D3D3D3;
+    border-radius: 20px;
+    width: 50%;
+    margin: 0 auto;
+    height: fit-content;
+    padding: 30px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.image {
+	height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+.arti {
+	font-size: 20pt;
+}
+
+.div2 {
+	font-size: 20pt;
+}
+
+.div3 {
+	font-size: 16pt;
+}
+
+.link:link {
+    color: #0000FF;
+}
+
+.link:hover {
+    color: #DC143C;
+}
+
+table {
+    border-radius: 30px;
+}
+
+#contact me {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+/*.quick-access {
+    position: fixed;
+    right: 0;
+    top: 20px;
+    text-align: center;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-bottom: 90px;
+    background-color: #00000026;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}*/
+
+/*.quick-access a {
+	text-decoration: none;
+	color: white;
+	padding: 90px 60px;
+}*/
+
+.home_social-icon {
+  font-size: 1.25rem;
+  color: var(--first-color);
+}
+
+.home_social-icon:hover {
+  color: var(--first-color-alt);
+}
+
+.footer-info {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.table2 {
+    margin: 0 auto;
+    background-color: #00000026;
+    padding: 10px;
+    color: white;
+}
+
+.to-top {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+.to-top a {
+	text-decoration: none;
+	color: black;
+}
+
+		
+		
+			
+
+			
+
+			
